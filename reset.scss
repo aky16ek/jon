@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Heebo',sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+}
+
+input{
+  border: none;
+  outline: none;
+}

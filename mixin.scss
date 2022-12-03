@@ -1,0 +1,15 @@
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin  good{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}

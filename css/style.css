@@ -1,0 +1,311 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+#header {
+  padding: 50px 0;
+}
+#header .header--title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+#header .header--title a {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: right;
+  color: black;
+  margin: 0 20px;
+}
+#header .header--title a:hover {
+  color: red;
+  border-bottom: 2px solid greenyellow;
+}
+
+#hero {
+  padding: 50px 0;
+}
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#hero .hero--title h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+  padding: 20px 0;
+}
+#hero .hero--title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  padding: 20px 0;
+}
+#hero .hero--title button {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  margin: 20px 0;
+}
+
+#post {
+  background: #EDF7FA;
+  padding: 50px 0;
+}
+#post .post--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#post .post--title h1 {
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  align-items: flex-end;
+  color: #21243D;
+  padding: 20px 0;
+  margin-left: 100px;
+}
+#post .post--title a {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: #00A8CC;
+  margin-right: 100px;
+}
+#post .post--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#post .post--block__from {
+  width: 418px;
+  height: 295px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+}
+#post .post--block__from h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243D;
+  padding: 20px 0;
+  margin-left: 50px;
+}
+#post .post--block__from h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #21243D;
+  padding: 20px 0;
+  margin-left: 50px;
+}
+#post .post--block__from p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  margin-left: 50px;
+}
+
+#dash {
+  padding: 50px 0;
+}
+#dash .dash {
+  margin-left: 100px;
+}
+#dash .dash h1 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #21243D;
+  padding: 20px 0;
+}
+#dash .dash--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 850px;
+  margin: 30px 0;
+}
+#dash .dash--block__title h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #21243D;
+  padding: 10px 0 10px 0;
+}
+#dash .dash--block__title h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8695A4;
+  padding: 10px 0 10px 0;
+}
+#dash .dash--block__title h2 span {
+  padding: 0 10px;
+  width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  margin: 0 20px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#footer .footer {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #21243D;
+}
+#footer .footer--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer--icon a {
+  font-size: 45px;
+  margin: 0 20px;
+  color: black;
+}
+#footer .footer--icon a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+#blog .blog {
+  margin-left: 200px;
+}
+#blog .blog h1 {
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 44px;
+  color: #21243D;
+}
+#blog .blog--blocks__block {
+  margin: 20px 0;
+}
+#blog .blog--blocks__block h1 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #21243D;
+}
+#blog .blog--blocks__block h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8695A4;
+  padding: 20px 0;
+}
+#blog .blog--blocks__block h2 span {
+  font-weight: 400;
+  font-size: 20px;
+  color: #21243D;
+}
+#blog .blog--blocks__block p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  padding-bottom: 50px;
+}
+
+#card {
+  margin-left: 250px;
+  padding: 50px 0;
+}
+#card .card--nav {
+  margin-left: 25px;
+}
+#card .card--nav h1 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  color: #21243D;
+}
+#card .card--nav h2 {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #21243D;
+  margin: 20px 0;
+}
+#card .card--nav h2 span {
+  font-weight: 900;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  color: white;
+  width: 42px;
+  background: #FF7C7C;
+  border-radius: 16px;
+  padding: 0 20px;
+  margin-right: 20px;
+}
+#card .card--nav p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  padding: 50px 0;
+}
+
+#amet {
+  padding: 50px 0;
+  margin-left: 250px;
+}
+#amet .amet h1 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #21243D;
+  padding: 20px 0;
+}
+#amet .amet--title h1 {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #21243D;
+}
+#amet .amet--title P {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  padding: 20px 0;
+}
+#amet .amet--title img {
+  padding: 20px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

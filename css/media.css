@@ -1,0 +1,37 @@
+@media (max-whidth 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  #dash .dash--block {
+    margin-left: -110px;
+  }
+}
+@media (max-width: 992px) {
+  #post .post--block__from {
+    height: 373px;
+    margin: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  #hero .hero--title h1 {
+    font-size: 37px;
+  }
+  #post .post--block__from h2 {
+    font-size: 15px;
+  }
+  #post .post--block__from p {
+    font-size: 14px;
+    margin-left: 23px;
+  }
+  #post .post--block__from h2 {
+    margin-left: 20px;
+  }
+  #post .post--block__from h1 {
+    font-size: 18px;
+    margin-left: 14px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
