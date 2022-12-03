@@ -13,6 +13,13 @@
     height: 373px;
     margin: 0 20px;
   }
+  #card {
+    margin-left: 37px;
+  }
+  #amet {
+
+    margin-left: 57px;
+  }
 }
 @media (max-width: 768px) {
   #hero .hero--title h1 {
@@ -27,6 +34,18 @@
   }
   #post .post--block__from h2 {
     margin-left: 20px;
+  }
+  #card {
+    margin-left: 37px;
+  }
+  #card .card--nav img{
+    margin-left: -90px;
+  }
+  #amet{
+    margin-left: -40px;
+  }
+  #blog .blog {
+    margin-left: -21px;
   }
   #post .post--block__from h1 {
     font-size: 18px;
